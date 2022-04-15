@@ -5,7 +5,6 @@
 ![image](https://user-images.githubusercontent.com/92014177/163583423-10da09ff-de5c-4331-8688-135b37a53b41.png)
 
 
-<p> </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
