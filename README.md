@@ -4,7 +4,6 @@
 
 ![image](https://user-images.githubusercontent.com/92014177/163583423-10da09ff-de5c-4331-8688-135b37a53b41.png)
 
-![image](https://user-images.githubusercontent.com/92014177/163580442-c8f454dd-4b91-4cc5-a20d-d450f17235a1.png)
 
 <p> </p>
 
