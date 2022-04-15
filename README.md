@@ -1,116 +1,113 @@
-![image](https://user-images.githubusercontent.com/92014177/163578936-8fad4276-0736-44b1-90fc-a89cd3377374.png)
+<h1 align="center"> Airbnb Booking Analysis </h1>
+
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
-<p align="center"> 
-<img src="https://i.imgur.com/1RSZNsh.gif" alt="Animated gif pacman game" height="382px">
-</p>
+![image](https://user-images.githubusercontent.com/92014177/163583423-10da09ff-de5c-4331-8688-135b37a53b41.png)
 
-<p>I have developed a credit card default classifier in Python using Random Forest Classifier.</p>
+![image](https://user-images.githubusercontent.com/92014177/163580442-c8f454dd-4b91-4cc5-a20d-d450f17235a1.png)
+
+<p> </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :floppy_disk: Table of Content</h2>
 
+  * [Introduction](#Introduction)
+  * [Abstract](#Abstract)
   * [Dataset Information](#dataset-information)
-  * [Overview](#overview)
-  * [Technologies Used](#technologies-used)
+  * [Problem Statement](#Problem-Statement)
+  * [Conclusion](#Conclusion)
 
-This project is aimed at predicting the case of customers default payments in Taiwan.
-This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<img target="_blank" src="https://user-images.githubusercontent.com/32620288/141337653-a5d66ee6-da22-4f2d-adba-c14f2d343329.png" width=1000; height=300>
+
+<h2> :book: Introduction:</h2>
+
+* Airbnb is an online marketplace for lodging, principally homestays for vacation rentals, and tourism activities based in the United States. The platform can be accessed by a website or a mobile app. Airbnb is a shortened version of AirBedandBreakfast.com, which was its original name.
+
+* From 2011 through 2019, the data we have is limited to New York City. From this data, we may extract some key information about various hosts and locations. The main goal is to assist our customers in making decisions about different types of rooms in different places. Customers will be able to know more about different hosts, such as the cost of a room per night and reviews of different hosts. Customers may be able to form an opinion on the host's service as a result of analysis. Customers will be able to choose a room type and spend the night in room depending on their budget.
+
+![image](https://user-images.githubusercontent.com/92014177/163581172-7646f312-b9f5-4008-bdd6-17f2528d5124.png)
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+<h2> :book: Abstract:</h2>
+
+* Our team has extensive experience with Airbnb Booking Analysis. We intend to concentrate solely on New York City. 
+
+* The investigation is mostly focused on the boroughs of Brooklyn, Manhattan, Queens, Staten Island, and the Bronx.
+
+*  This information includes information about the host, lodging prices, and reviews, among other things.
+
+* With the use of exploratory data analysis, data wrangling, visualization, and other tools, we can extract a lot of information from the analysis.
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 
 <h2> :book: Dataset information:</h2>
 
-There are 25 variables:
 
-* ID: ID of each client.
+* Id-Id of Each row
 
-* LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit.
+* Name	-Name of Each room given by host
 
-* SEX: Gender (1=male, 2=female)
+* Host_id –Id of each Host
 
-* EDUCATION: (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown)
+* Host_name –Name of each Host
 
-* MARRIAGE: Marital status (1=married, 2=single, 3=others)
+* Neighbourhood group – Borough country Name
 
-* AGE: Age in years
+* Neighbourhood –All cities of Each Borough Country
 
-* PAY_0: Repayment status in September, 2005 (-1=pay duly, 1=payment delay for one month, 2=payment delay for two months, … 8=payment delay for eight months, 9=payment delay for nine months and above)
+* Latitude and Longitude –Geographical Data of Borough Country
 
-* PAY_2: Repayment status in August, 2005 (scale same as above)
+* Room type –Name of each room type
 
-* PAY_3: Repayment status in July, 2005 (scale same as above)
+* Price –price of each rooms
 
-* PAY_4: Repayment status in June, 2005 (scale same as above)
+* Minimum Nights- price for Minimum nights to stay
 
-* PAY_5: Repayment status in May, 2005 (scale same as above)
+* Number of review- Total reviews given by customer
 
-* PAY_6: Repayment status in April, 2005 (scale same as above)
+* Last reviews- Date of last reviews given by customer
 
-* BILL_AMT1: Amount of bill statement in September, 2005 (NT dollar)
+* Reviews per month –Average review rate per month
 
-* BILL_AMT2: Amount of bill statement in August, 2005 (NT dollar)
+* Calculated host listing count –Count of Host listing in Airbnb
 
-* BILL_AMT3: Amount of bill statement in July, 2005 (NT dollar)
+* Availabilty_365 – Number of days availability
 
-* BILL_AMT4: Amount of bill statement in June, 2005 (NT dollar)
-
-* BILL_AMT5: Amount of bill statement in May, 2005 (NT dollar)
-
-* BILL_AMT6: Amount of bill statement in April, 2005 (NT dollar)
-
-* PAY_AMT1: Amount of previous payment in September, 2005 (NT dollar)
-
-* PAY_AMT2: Amount of previous payment in August, 2005 (NT dollar)
-
-* PAY_AMT3: Amount of previous payment in July, 2005 (NT dollar)
-
-* PAY_AMT4: Amount of previous payment in June, 2005 (NT dollar)
-
-* PAY_AMT5: Amount of previous payment in May, 2005 (NT dollar)
-
-* PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
-
-* default.payment.next.month: Default payment (1=yes, 0=no)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :book: Overview:</h2>
+<h2> :book: Problem Statement:</h2>
 
-This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.Predicting potential credit default accounts.
+* The customer can book a room through the Airbnb website. To explore more, the customer is moving to the Queens, Bronx, Staten Island, Brooklyn, and Manhattan neighborhoods.
 
-Technology and tools wise this project covers,
+* The customer requires assistance in identifying a number of bookings in each borough country and guiding that customer in selecting the best place to live at an affordable cost, analyzing the room's price so that the customer can afford it, and selecting the appropriate room type based on their needs.
 
-1.Python
+* The quantity of reviews, the number of reviews per month, and the availability of the rooms will all meet these criteria. All of these insights will be obtained through EDA and a thorough comprehension of the data.
 
-2.Numpy and Pandas for data cleaning
 
-3.Data visualization
-
-4.Sklearn for model building
-
-5.Jupiter Notebook
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- CREDITS -->
-<h2 id="credits"> :scroll: Credits</h2>
+<h2> :book: Conclusion:</h2>
 
-< Ashish Gupta > | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast | Statistic Student | Storyteller
+* We've done null value treatment, outlier removal, statistical tests, transformation, and EDA since loading the data.
 
-<p> <i> Contact me for Data Science Project Collaborations</i></p>
+* To help, exploratory data analysis was used. Customers can examine and comprehend new facts using the data
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-ashishgupta45?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashishgupta45)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-Ashishgupta45?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ashishgupta45)
-[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://ashishgupta45.medium.com)
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+* As a result, with the help of these EDA, clients are able to obtain a higher number of crucial information
 
-<h2> :book: Technologies Used::</h2>
+* Customers can see that choose the place to stay in based on their budget will be highly beneficial to them.
 
-![](https://forthebadge.com/images/badges/made-with-python.svg)
+* They will also find seeing the reviews of different hosts and different rooms based on the location very informative.
 
-[<img target="_blank" src="https://user-images.githubusercontent.com/32620288/139657460-40ef4562-76bd-43f5-bbca-47b6bd29863e.png" width=100>](https://numpy.org)    [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/450px-Pandas_logo.svg.png" width=150>](https://pandas.pydata.org)  [<img target="_blank" src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width=150>](https://seaborn.pydata.org) [<img target="_blank" src="https://matplotlib.org/_static/logo2_compressed.svg" width=170>](https://matplotlib.org)   [<img target="_blank" src="https://user-images.githubusercontent.com/32620288/137518674-f36c5ad3-3d64-4c7a-a07c-53f247750394.png" width=170>](https://colab.research.google.com/)
+* Customers will have access to information about various hosts and places.
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
