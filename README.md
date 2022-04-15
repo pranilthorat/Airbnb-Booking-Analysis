@@ -1,4 +1,4 @@
-<h1 align="center"> Credit Card Default Prediction </h1>
+![image](https://user-images.githubusercontent.com/92014177/163578936-8fad4276-0736-44b1-90fc-a89cd3377374.png)
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
 <p align="center"> 
